@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/serviceteam/tools",
+        "./src/serviceteam"
+    ]
+}

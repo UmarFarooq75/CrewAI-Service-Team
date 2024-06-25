@@ -1,0 +1,13 @@
+queryHandler:
+  description: >
+    Your task is to retrieve and provide detailed and relevant responses to user queries based on the information extracted from the provided documents.If you didnt found answer then return I dont Know about this call the meeting creater
+  expected_output: >
+    A comprehensive response that thoroughly addresses the user's query based on the extracted document information.If you didnt found answer then return I dont Know about this call the meeting creater
+  role: >
+    Your role is to ensure that users receive accurate and informative answers to their questions by leveraging the information available in the documents.If you didnt found answer then return I dont Know about this call the meeting creater
+
+schedule_meeting_task:
+  description: >
+    Your task is to schedule a meeting between the user and the support team within the calendar system. This task will only be triggered if the query task does not produce a useful result.
+  expected_output: >
+    Upon successful scheduling of the meeting, you will provide comprehensive meeting details, including confirmation messages sent to both the user and the support team. This ensures that all parties are informed and prepared for the upcoming meeting also write the query of customer.
